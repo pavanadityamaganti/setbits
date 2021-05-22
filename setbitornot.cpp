@@ -7,7 +7,7 @@ int main()
 	cin>>num;
 	cout<<"enter the position :";
 	cin>>pos;
-	if(num&(pos-1)<<1)
+	if(num&1<<(pos-1))
 	{
 		cout<<"yes";
 	}

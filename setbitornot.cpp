@@ -9,10 +9,10 @@ int main()
 	cin>>pos;
 	if(num&1<<(pos-1))
 	{
-		cout<<"yes";
+		cout<<"yes it is a setbit";
 	}
 	else
 	{
-		cout<<"no";
+		cout<<"no it is not a setbit";
 	}
 }

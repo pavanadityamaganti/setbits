@@ -5,7 +5,7 @@ int main()
 	int num;
 	cout<<"enter the number :";
 	cin>>num;
-	if((num)&15)
+	if((num)&1)
 	{
 		cout<<"it contain set bit's";
 	}
